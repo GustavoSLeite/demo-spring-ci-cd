@@ -24,13 +24,13 @@
 	</properties>
 
 	<dependencies>
-		<!-- Principal - Spring Web -->
+		<!-- Starter principal para aplicações Web (inclui Spring MVC e Tomcat) -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
-		<!-- Testes (inclui suporte a @WebMvcTest e @MockBean) -->
+		<!-- Starter de testes (inclui JUnit, Mockito, @WebMvcTest, @MockBean etc.) -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -48,3 +48,4 @@
 	</build>
 
 </project>
+
