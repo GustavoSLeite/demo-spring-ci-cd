@@ -24,10 +24,10 @@
 	</properties>
 
 	<dependencies>
-		<!-- Web -->
+		<!-- Principal - Spring Web MVC -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
+			<artifactId>spring-boot-starter-webmvc</artifactId>
 		</dependency>
 
 		<!-- Testes -->
@@ -37,7 +37,7 @@
 			<scope>test</scope>
 		</dependency>
 
-		<!-- Obrigatório no Spring Boot 4 para @WebMvcTest e @MockBean -->
+		<!-- Essencial no Spring Boot 4 para @WebMvcTest -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-webmvc-test</artifactId>
